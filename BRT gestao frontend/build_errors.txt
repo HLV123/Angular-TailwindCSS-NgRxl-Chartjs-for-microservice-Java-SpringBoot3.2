@@ -1,0 +1,3945 @@
+﻿node.exe : - Building...
+At C:\Program Files\nodejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (- 
+B    uilding...:String) [], RemoteException
+    + FullyQualifiedErrorId : 
+NativeCommandError
+ 
+
+Application bundle generation failed. [5.522 seconds]
+
+Γû▓ [WARNING] NG8107: The left side of this 
+optional chain operation does not include 
+'null' or 'undefined' in its type, therefore 
+the '?.' operator can be replaced with the '.' 
+operator. [plugin angular-compiler]
+
+    src/app/features/passenger-portal/passenger
+-portal.component.ts:65:68:
+      65 Γöé ...te-500">{{ 
+r.stations[0]?.stationName }} ΓåÆ {{ 
+r.stations[r.st...
+         Γò╡                              
+~~~~~~~~~~~
+
+
+Γû▓ [WARNING] NG8107: The left side of this 
+optional chain operation does not include 
+'null' or 'undefined' in its type, therefore 
+the '?.' operator can be replaced with the '.' 
+operator. [plugin angular-compiler]
+
+    src/app/features/passenger-portal/passenger
+-portal.component.ts:65:121:
+      65 Γöé ...Name }} ΓåÆ {{ 
+r.stations[r.stations.length-1]?.stationName 
+}}</p>
+         Γò╡                                   
+             ~~~~~~~~~~~
+
+
+Γû▓ [WARNING] NG8107: The left side of this 
+optional chain operation does not include 
+'null' or 'undefined' in its type, therefore 
+the '?.' operator can be replaced with the '.' 
+operator. [plugin angular-compiler]
+
+    src/app/features/routes/route-detail/route-
+detail.component.ts:102:68:
+      102 Γöé ...-2">{{ 
+route.stations[0]?.stationName }} ΓåÆ {{ 
+route.stations...
+          Γò╡                              
+~~~~~~~~~~~
+
+
+Γû▓ [WARNING] NG8107: The left side of this 
+optional chain operation does not include 
+'null' or 'undefined' in its type, therefore 
+the '?.' operator can be replaced with the '.' 
+operator. [plugin angular-compiler]
+
+    src/app/features/routes/route-detail/route-
+detail.component.ts:102:129:
+      102 Γöé ...∩┐╜∩┐╜ {{ route.stations[route
+.stations.length-1]?.stationName }}</p>
+          Γò╡                                  
+               ~~~~~~~~~~~
+
+
+Γû▓ [WARNING] NG8107: The left side of this 
+optional chain operation does not include 
+'null' or 'undefined' in its type, therefore 
+the '?.' operator can be replaced with the '.' 
+operator. [plugin angular-compiler]
+
+    src/app/features/routes/route-list/route-li
+st.component.ts:80:85:
+      80 Γöé ...medium text-slate-500">{{ 
+route.stations[0]?.stationName }}</span>
+         Γò╡                                   
+              ~~~~~~~~~~~
+
+
+Γû▓ [WARNING] NG8107: The left side of this 
+optional chain operation does not include 
+'null' or 'undefined' in its type, therefore 
+the '?.' operator can be replaced with the '.' 
+operator. [plugin angular-compiler]
+
+    src/app/features/routes/route-list/route-li
+st.component.ts:82:107:
+      82 Γöé ...>{{ route.stations[route.statio
+ns.length-1]?.stationName }}</span>
+         Γò╡                                   
+              ~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'description' does not 
+exist on type 'NiFiFlowStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:41:56:
+      41 Γöé ...      <p class="text-xs 
+text-slate-500">{{ flow.description }}</p>
+         Γò╡                                   
+                 ~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'inputRecords' does 
+not exist on type 'NiFiFlowStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:44:51:
+      44 Γöé ...ext-sm font-bold">{{ 
+flow.inputRecords.toLocaleString() }} Γ₧£ ...
+         Γò╡                              
+~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'outputRecords' does 
+not exist on type 'NiFiFlowStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:44:94:
+      44 Γöé ...ocaleString() }} Γ₧£ {{ 
+flow.outputRecords.toLocaleString() }}</p>
+         Γò╡                             
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'errorCount' does not 
+exist on type 'NiFiFlowStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:48:41:
+      48 Γöé               <p 
+class="text-sm">{{ flow.errorCount }}</p>
+         Γò╡                                   
+       ~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'errorCount' does not 
+exist on type 'NiFiFlowStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:49:53:
+      49 Γöé ...xt-[10px]" [ngClass]="flow.erro
+rCount>0?'text-red-500':'text-em...
+         Γò╡                               
+~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'topicName' does not 
+exist on type 'KafkaTopicStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:64:61:
+      64 Γöé ...    <td class="font-mono 
+text-xs font-bold">{{ t.topicName }}</td>
+         Γò╡                                   
+                  ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'replicas' does not 
+exist on type 'KafkaTopicStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:66:45:
+      66 Γöé                 <td 
+class="text-center">{{ t.replicas }}</td>
+         Γò╡                                   
+           ~~~~~~~~
+
+
+X [ERROR] NG9: Property 'messagesPerSecond' 
+does not exist on type 'KafkaTopicStatus'. 
+[plugin angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:67:69:
+      67 Γöé ...ext-center font-bold 
+text-blue-600">{{ t.messagesPerSecond }}</td>
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'consumerLag' does not 
+exist on type 'KafkaTopicStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:69:77:
+      69 Γöé ...="font-bold" 
+[ngClass]="t.consumerLag > 1000 ? 
+'text-red-600' :...
+         Γò╡                              
+~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'consumerLag' does not 
+exist on type 'KafkaTopicStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:69:117:
+      69 Γöé ...1000 ? 'text-red-600' : 
+t.consumerLag > 100 ? 'text-amber-600' ...
+         Γò╡                              
+~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'consumerLag' does not 
+exist on type 'KafkaTopicStatus'. [plugin 
+angular-compiler]
+
+    src/app/features/data-platform/data-platfor
+m.component.ts:69:181:
+      69 Γöé ... 'text-emerald-600'">{{ 
+t.consumerLag.toLocaleString() }}</span...
+         Γò╡                              
+~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:27:53:
+      27 Γöé ...-red-600">{{ incidents.filter(i
+=>i.status!=='CLOSED'&&i.status!...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: No overload matches this call.
+  Overload 1 of 2, '(predicate: (value: 
+Incident, index: number, array: Incident[]) => 
+value is Incident, thisArg?: any): 
+Incident[]', gave the following error.
+    Argument of type 'undefined' is not 
+assignable to parameter of type '(value: 
+Incident, index: number, array: Incident[]) => 
+value is Incident'.
+  Overload 2 of 2, '(predicate: (value: 
+Incident, index: number, array: Incident[]) => 
+unknown, thisArg?: any): Incident[]', gave the 
+following error.
+    Argument of type 'undefined' is not 
+assignable to parameter of type '(value: 
+Incident, index: number, array: Incident[]) => 
+unknown'. [plugin angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:27:73:
+      27 Γöé ...ts.filter(i=>i.status!=='CLOSED
+'&&i.status!=='RESOLVED').length...
+         Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:31:55:
+      31 Γöé ...mber-600">{{ incidents.filter(i
+=>i.status==='IN_PROGRESS').leng...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:31:55:
+      31 Γöé ...mber-600">{{ incidents.filter(i
+=>i.status==='IN_PROGRESS').leng...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: No overload matches this call.
+  Overload 1 of 2, '(predicate: (value: 
+Incident, index: number, array: Incident[]) => 
+value is Incident, thisArg?: any): 
+Incident[]', gave the following error.
+    Argument of type 'undefined' is not 
+assignable to parameter of type '(value: 
+Incident, index: number, array: Incident[]) => 
+value is Incident'.
+  Overload 2 of 2, '(predicate: (value: 
+Incident, index: number, array: Incident[]) => 
+unknown, thisArg?: any): Incident[]', gave the 
+following error.
+    Argument of type 'undefined' is not 
+assignable to parameter of type '(value: 
+Incident, index: number, array: Incident[]) => 
+unknown'. [plugin angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:31:75:
+      31 Γöé ...00">{{ incidents.filter(i=>i.st
+atus==='IN_PROGRESS').length }}</p>
+         Γò╡                            
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:35:57:
+      35 Γöé ...rald-600">{{ incidents.filter(i
+=>i.status==='RESOLVED'||i.statu...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:35:57:
+      35 Γöé ...rald-600">{{ incidents.filter(i
+=>i.status==='RESOLVED'||i.statu...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:35:57:
+      35 Γöé ...rald-600">{{ incidents.filter(i
+=>i.status==='RESOLVED'||i.statu...
+         Γò╡              ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: No overload matches this call.
+  Overload 1 of 2, '(predicate: (value: 
+Incident, index: number, array: Incident[]) => 
+value is Incident, thisArg?: any): 
+Incident[]', gave the following error.
+    Argument of type 'undefined' is not 
+assignable to parameter of type '(value: 
+Incident, index: number, array: Incident[]) => 
+value is Incident'.
+  Overload 2 of 2, '(predicate: (value: 
+Incident, index: number, array: Incident[]) => 
+unknown, thisArg?: any): Incident[]', gave the 
+following error.
+    Argument of type 'undefined' is not 
+assignable to parameter of type '(value: 
+Incident, index: number, array: Incident[]) => 
+unknown'. [plugin angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:35:77:
+      35 Γöé ...ts.filter(i=>i.status==='RESOLV
+ED'||i.status==='CLOSED').length...
+         Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:39:54:
+      39 Γöé ...lass="text-3xl font-bold 
+text-blue-600">{{ incidents.length }}</p>
+         Γò╡                                   
+         ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:39:54:
+      39 Γöé ...lass="text-3xl font-bold 
+text-blue-600">{{ incidents.length }}</p>
+         Γò╡                                   
+         ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:39:54:
+      39 Γöé ...lass="text-3xl font-bold 
+text-blue-600">{{ incidents.length }}</p>
+         Γò╡                                   
+         ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:46:28:
+      46 Γöé         <input 
+[(ngModel)]="searchTerm" placeholder="T├¼m 
+kiß║┐m.....
+         Γò╡                             
+~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:46:28:
+      46 Γöé         <input 
+[(ngModel)]="searchTerm" placeholder="T├¼m 
+kiß║┐m.....
+         Γò╡                             
+~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:46:28:
+      46 Γöé         <input 
+[(ngModel)]="searchTerm" placeholder="T├¼m 
+kiß║┐m.....
+         Γò╡                             
+~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:46:28:
+      46 Γöé         <input 
+[(ngModel)]="searchTerm" placeholder="T├¼m 
+kiß║┐m.....
+         Γò╡                             
+~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:46:28:
+      46 Γöé         <input 
+[(ngModel)]="searchTerm" placeholder="T├¼m 
+kiß║┐m.....
+         Γò╡                             
+~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:46:28:
+      46 Γöé         <input 
+[(ngModel)]="searchTerm" placeholder="T├¼m 
+kiß║┐m.....
+         Γò╡                             
+~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:47:29:
+      47 Γöé ...    <select 
+[(ngModel)]="filterSeverity" 
+class="form-select max...
+         Γò╡                             
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:47:29:
+      47 Γöé ...    <select 
+[(ngModel)]="filterSeverity" 
+class="form-select max...
+         Γò╡                             
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:47:29:
+      47 Γöé ...    <select 
+[(ngModel)]="filterSeverity" 
+class="form-select max...
+         Γò╡                             
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:47:29:
+      47 Γöé ...    <select 
+[(ngModel)]="filterSeverity" 
+class="form-select max...
+         Γò╡                             
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:47:29:
+      47 Γöé ...    <select 
+[(ngModel)]="filterSeverity" 
+class="form-select max...
+         Γò╡                             
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:47:29:
+      47 Γöé ...    <select 
+[(ngModel)]="filterSeverity" 
+class="form-select max...
+         Γò╡                             
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:50:29:
+      50 Γöé         <select 
+[(ngModel)]="filterStatus" class="form-select 
+max-...
+         Γò╡                              
+~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:50:29:
+      50 Γöé         <select 
+[(ngModel)]="filterStatus" class="form-select 
+max-...
+         Γò╡                              
+~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:50:29:
+      50 Γöé         <select 
+[(ngModel)]="filterStatus" class="form-select 
+max-...
+         Γò╡                              
+~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:50:29:
+      50 Γöé         <select 
+[(ngModel)]="filterStatus" class="form-select 
+max-...
+         Γò╡                              
+~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:50:29:
+      50 Γöé         <select 
+[(ngModel)]="filterStatus" class="form-select 
+max-...
+         Γò╡                              
+~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:50:29:
+      50 Γöé         <select 
+[(ngModel)]="filterStatus" class="form-select 
+max-...
+         Γò╡                              
+~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:57:13:
+      57 Γöé         <div *ngFor="let inc of 
+filteredIncidents" class="bg-white...
+         Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:57:13:
+      57 Γöé         <div *ngFor="let inc of 
+filteredIncidents" class="bg-white...
+         Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:57:13:
+      57 Γöé         <div *ngFor="let inc of 
+filteredIncidents" class="bg-white...
+         Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:57:146:
+      57 Γöé ...w-md transition-all 
+cursor-pointer" (click)="selectIncident(inc)">
+         Γò╡                                   
+              ~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:57:146:
+      57 Γöé ...w-md transition-all 
+cursor-pointer" (click)="selectIncident(inc)">
+         Γò╡                                   
+              ~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:57:146:
+      57 Γöé ...w-md transition-all 
+cursor-pointer" (click)="selectIncident(inc)">
+         Γò╡                                   
+              ~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:61:63:
+      61 Γöé ...pan class="font-mono text-xs 
+text-slate-400">{{ inc.code }}</span>
+         Γò╡                                   
+              ~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:61:63:
+      61 Γöé ...pan class="font-mono text-xs 
+text-slate-400">{{ inc.code }}</span>
+         Γò╡                                   
+              ~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:61:63:
+      61 Γöé ...pan class="font-mono text-xs 
+text-slate-400">{{ inc.code }}</span>
+         Γò╡                                   
+              ~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:62:47:
+      62 Γöé ...adge" 
+[ngClass]="getSeverityClass(inc.severity)">{{ 
+inc.severit...
+         Γò╡                     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:62:47:
+      62 Γöé ...adge" 
+[ngClass]="getSeverityClass(inc.severity)">{{ 
+inc.severit...
+         Γò╡                     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:62:47:
+      62 Γöé ...adge" 
+[ngClass]="getSeverityClass(inc.severity)">{{ 
+inc.severit...
+         Γò╡                     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:62:79:
+      62 Γöé 
+...gClass]="getSeverityClass(inc.severity)">{{ 
+inc.severity }}</span>
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:62:79:
+      62 Γöé 
+...gClass]="getSeverityClass(inc.severity)">{{ 
+inc.severity }}</span>
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:62:79:
+      62 Γöé 
+...gClass]="getSeverityClass(inc.severity)">{{ 
+inc.severity }}</span>
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:63:47:
+      63 Γöé ...s="badge" 
+[ngClass]="getTypeClass(inc.type)">{{ 
+getTypeLabel(in...
+         Γò╡                         
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:63:47:
+      63 Γöé ...s="badge" 
+[ngClass]="getTypeClass(inc.type)">{{ 
+getTypeLabel(in...
+         Γò╡                         
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:63:47:
+      63 Γöé ...s="badge" 
+[ngClass]="getTypeClass(inc.type)">{{ 
+getTypeLabel(in...
+         Γò╡                         
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:63:71:
+      63 Γöé 
+...lass]="getTypeClass(inc.type)">{{ 
+getTypeLabel(inc.type) }}</span>
+         Γò╡                                   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:63:71:
+      63 Γöé 
+...lass]="getTypeClass(inc.type)">{{ 
+getTypeLabel(inc.type) }}</span>
+         Γò╡                                   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:63:71:
+      63 Γöé 
+...lass]="getTypeClass(inc.type)">{{ 
+getTypeLabel(inc.type) }}</span>
+         Γò╡                                   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:64:47:
+      64 Γöé ..."badge" 
+[ngClass]="getStatusClass(inc.status)">{{ 
+getStatusLabe...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:64:47:
+      64 Γöé ..."badge" 
+[ngClass]="getStatusClass(inc.status)">{{ 
+getStatusLabe...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:64:47:
+      64 Γöé ..."badge" 
+[ngClass]="getStatusClass(inc.status)">{{ 
+getStatusLabe...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:64:75:
+      64 Γöé ...etStatusClass(inc.status)">{{ 
+getStatusLabel(inc.status) }}</span>
+         Γò╡                               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:64:75:
+      64 Γöé ...etStatusClass(inc.status)">{{ 
+getStatusLabel(inc.status) }}</span>
+         Γò╡                               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:64:75:
+      64 Γöé ...etStatusClass(inc.status)">{{ 
+getStatusLabel(inc.status) }}</span>
+         Γò╡                               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:66:55:
+      66 Γöé ...     <h4 class="font-semibold 
+text-slate-800">{{ inc.title }}</h4>
+         Γò╡                                   
+               ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:66:55:
+      66 Γöé ...     <h4 class="font-semibold 
+text-slate-800">{{ inc.title }}</h4>
+         Γò╡                                   
+               ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:66:55:
+      66 Γöé ...     <h4 class="font-semibold 
+text-slate-800">{{ inc.title }}</h4>
+         Γò╡                                   
+               ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:67:53:
+      67 Γöé ...  <p class="text-sm 
+text-slate-500 mt-1">{{ inc.description }}</p>
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:67:53:
+      67 Γöé ...  <p class="text-sm 
+text-slate-500 mt-1">{{ inc.description }}</p>
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:67:53:
+      67 Γöé ...  <p class="text-sm 
+text-slate-500 mt-1">{{ inc.description }}</p>
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:69:22:
+      69 Γöé                 <span 
+*ngIf="inc.vehiclePlate">≡ƒÜî {{ inc.vehicle...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:69:22:
+      69 Γöé                 <span 
+*ngIf="inc.vehiclePlate">≡ƒÜî {{ inc.vehicle...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:69:22:
+      69 Γöé                 <span 
+*ngIf="inc.vehiclePlate">≡ƒÜî {{ inc.vehicle...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:69:47:
+      69 Γöé ... <span 
+*ngIf="inc.vehiclePlate">≡ƒÜî {{ 
+inc.vehiclePlate }}</span>
+         Γò╡                                   
+ ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:69:47:
+      69 Γöé ... <span 
+*ngIf="inc.vehiclePlate">≡ƒÜî {{ 
+inc.vehiclePlate }}</span>
+         Γò╡                                   
+ ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:69:47:
+      69 Γöé ... <span 
+*ngIf="inc.vehiclePlate">≡ƒÜî {{ 
+inc.vehiclePlate }}</span>
+         Γò╡                                   
+ ~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:70:22:
+      70 Γöé                 <span 
+*ngIf="inc.routeName">≡ƒôì {{ inc.routeName ...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:70:22:
+      70 Γöé                 <span 
+*ngIf="inc.routeName">≡ƒôì {{ inc.routeName ...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:70:22:
+      70 Γöé                 <span 
+*ngIf="inc.routeName">≡ƒôì {{ inc.routeName ...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:70:44:
+      70 Γöé ...       <span 
+*ngIf="inc.routeName">≡ƒôì {{ inc.routeName 
+}}</span>
+         Γò╡                                   
+    ~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:70:44:
+      70 Γöé ...       <span 
+*ngIf="inc.routeName">≡ƒôì {{ inc.routeName 
+}}</span>
+         Γò╡                                   
+    ~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:70:44:
+      70 Γöé ...       <span 
+*ngIf="inc.routeName">≡ƒôì {{ inc.routeName 
+}}</span>
+         Γò╡                                   
+    ~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:71:22:
+      71 Γöé                 <span 
+*ngIf="inc.stationName">≡ƒÅó {{ inc.stationN...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:71:22:
+      71 Γöé                 <span 
+*ngIf="inc.stationName">≡ƒÅó {{ inc.stationN...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:71:22:
+      71 Γöé                 <span 
+*ngIf="inc.stationName">≡ƒÅó {{ inc.stationN...
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:71:46:
+      71 Γöé ...   <span 
+*ngIf="inc.stationName">≡ƒÅó {{ 
+inc.stationName }}</span>
+         Γò╡                                   
+  ~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:71:46:
+      71 Γöé ...   <span 
+*ngIf="inc.stationName">≡ƒÅó {{ 
+inc.stationName }}</span>
+         Γò╡                                   
+  ~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:71:46:
+      71 Γöé ...   <span 
+*ngIf="inc.stationName">≡ƒÅó {{ 
+inc.stationName }}</span>
+         Γò╡                                   
+  ~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:72:22:
+      72 Γöé                 <span>≡ƒæñ {{ 
+inc.reportedBy }}</span>
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:72:22:
+      72 Γöé                 <span>≡ƒæñ {{ 
+inc.reportedBy }}</span>
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:72:22:
+      72 Γöé                 <span>≡ƒæñ {{ 
+inc.reportedBy }}</span>
+         Γò╡                       
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:73:22:
+      73 Γöé ...         <span>ΓÅ▒ {{ 
+inc.createdAt | date:'HH:mm dd/MM' }}</span>
+         Γò╡                   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:73:22:
+      73 Γöé ...         <span>ΓÅ▒ {{ 
+inc.createdAt | date:'HH:mm dd/MM' }}</span>
+         Γò╡                   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:73:22:
+      73 Γöé ...         <span>ΓÅ▒ {{ 
+inc.createdAt | date:'HH:mm dd/MM' }}</span>
+         Γò╡                   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:76:17:
+      76 Γöé             <div 
+*ngIf="inc.assignedToName" class="text-right 
+ml-4">
+         Γò╡                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:76:17:
+      76 Γöé             <div 
+*ngIf="inc.assignedToName" class="text-right 
+ml-4">
+         Γò╡                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:76:17:
+      76 Γöé             <div 
+*ngIf="inc.assignedToName" class="text-right 
+ml-4">
+         Γò╡                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:78:45:
+      78 Γöé ...       <p class="text-sm 
+font-medium">{{ inc.assignedToName }}</p>
+         Γò╡                                   
+       ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:78:45:
+      78 Γöé ...       <p class="text-sm 
+font-medium">{{ inc.assignedToName }}</p>
+         Γò╡                                   
+       ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:78:45:
+      78 Γöé ...       <p class="text-sm 
+font-medium">{{ inc.assignedToName }}</p>
+         Γò╡                                   
+       ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:85:11:
+      85 Γöé       <div 
+*ngIf="selectedIncident" class="modal-overlay" 
+(click)=...
+         Γò╡            
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:85:11:
+      85 Γöé       <div 
+*ngIf="selectedIncident" class="modal-overlay" 
+(click)=...
+         Γò╡            
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:85:11:
+      85 Γöé       <div 
+*ngIf="selectedIncident" class="modal-overlay" 
+(click)=...
+         Γò╡            
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:85:67:
+      85 Γöé ...Incident" 
+class="modal-overlay" 
+(click)="selectedIncident = null">
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:85:67:
+      85 Γöé ...Incident" 
+class="modal-overlay" 
+(click)="selectedIncident = null">
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:85:67:
+      85 Γöé ...Incident" 
+class="modal-overlay" 
+(click)="selectedIncident = null">
+         Γò╡                                   
+          ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:86:66:
+      86 Γöé ...content w-full max-w-2xl mx-4" 
+(click)="$event.stopPropagation()">
+         Γò╡                                   
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:86:66:
+      86 Γöé ...content w-full max-w-2xl mx-4" 
+(click)="$event.stopPropagation()">
+         Γò╡                                   
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:86:66:
+      86 Γöé ...content w-full max-w-2xl mx-4" 
+(click)="$event.stopPropagation()">
+         Γò╡                                   
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:89:45:
+      89 Γöé ...ngClass]="getSeverityClass(sele
+ctedIncident.severity)">{{ selec...
+         Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:89:45:
+      89 Γöé ...ngClass]="getSeverityClass(sele
+ctedIncident.severity)">{{ selec...
+         Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:89:45:
+      89 Γöé ...ngClass]="getSeverityClass(sele
+ctedIncident.severity)">{{ selec...
+         Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:89:90:
+      89 Γöé ...selectedIncident.severity)">{{ 
+selectedIncident.severity }}</span>
+         Γò╡                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:89:90:
+      89 Γöé ...selectedIncident.severity)">{{ 
+selectedIncident.severity }}</span>
+         Γò╡                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:89:90:
+      89 Γöé ...selectedIncident.severity)">{{ 
+selectedIncident.severity }}</span>
+         Γò╡                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:90:59:
+      90 Γöé ...ext-xl font-bold 
+text-slate-800">{{ selectedIncident.title 
+}}</h2>
+         Γò╡                                   
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:90:59:
+      90 Γöé ...ext-xl font-bold 
+text-slate-800">{{ selectedIncident.title 
+}}</h2>
+         Γò╡                                   
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:90:59:
+      90 Γöé ...ext-xl font-bold 
+text-slate-800">{{ selectedIncident.title 
+}}</h2>
+         Γò╡                                   
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:92:51:
+      92 Γöé ...lass="text-sm text-slate-500 
+mt-1">{{ selectedIncident.code }}</p>
+         Γò╡                                   
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:92:51:
+      92 Γöé ...lass="text-sm text-slate-500 
+mt-1">{{ selectedIncident.code }}</p>
+         Γò╡                                   
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:92:51:
+      92 Γöé ...lass="text-sm text-slate-500 
+mt-1">{{ selectedIncident.code }}</p>
+         Γò╡                                   
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:95:46:
+      95 Γöé ...ss="text-sm text-slate-600">{{ 
+selectedIncident.description }}</p>
+         Γò╡                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:95:46:
+      95 Γöé ...ss="text-sm text-slate-600">{{ 
+selectedIncident.description }}</p>
+         Γò╡                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:95:46:
+      95 Γöé ...ss="text-sm text-slate-600">{{ 
+selectedIncident.description }}</p>
+         Γò╡                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:101:21:
+      101 Γöé ...     <div *ngFor="let step of 
+workflowSteps; let i = index" cl...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:101:21:
+      101 Γöé ...     <div *ngFor="let step of 
+workflowSteps; let i = index" cl...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:101:21:
+      101 Γöé ...     <div *ngFor="let step of 
+workflowSteps; let i = index" cl...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:104:33:
+      104 Γöé ...         
+[ngClass]="getStepClass(step, 
+selectedIncident.status)">
+          Γò╡                        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:104:33:
+      104 Γöé ...         
+[ngClass]="getStepClass(step, 
+selectedIncident.status)">
+          Γò╡                        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:104:33:
+      104 Γöé ...         
+[ngClass]="getStepClass(step, 
+selectedIncident.status)">
+          Γò╡                        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:105:22:
+      105 Γöé ...          {{ isStepDone(step, 
+selectedIncident.status) ? 'Γ£ô'...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:105:22:
+      105 Γöé ...          {{ isStepDone(step, 
+selectedIncident.status) ? 'Γ£ô'...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:105:22:
+      105 Γöé ...          {{ isStepDone(step, 
+selectedIncident.status) ? 'Γ£ô'...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:107:66:
+      107 Γöé ...  <span class="text-[10px] 
+text-slate-500 mt-1">{{ step }}</span>
+          Γò╡                                  
+                  ~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:107:66:
+      107 Γöé ...  <span class="text-[10px] 
+text-slate-500 mt-1">{{ step }}</span>
+          Γò╡                                  
+                  ~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:107:66:
+      107 Γöé ...  <span class="text-[10px] 
+text-slate-500 mt-1">{{ step }}</span>
+          Γò╡                                  
+                  ~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:109:23:
+      109 Γöé ...         <div *ngIf="i < 
+workflowSteps.length-1" class="w-8 h-...
+          Γò╡                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:109:23:
+      109 Γöé ...         <div *ngIf="i < 
+workflowSteps.length-1" class="w-8 h-...
+          Γò╡                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:109:23:
+      109 Γöé ...         <div *ngIf="i < 
+workflowSteps.length-1" class="w-8 h-...
+          Γò╡                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:109:93:
+      109 Γöé 
+...ngClass]="isStepDone(workflowSteps[i+1], 
+selectedIncident.stat...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:109:93:
+      109 Γöé 
+...ngClass]="isStepDone(workflowSteps[i+1], 
+selectedIncident.stat...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:109:93:
+      109 Γöé 
+...ngClass]="isStepDone(workflowSteps[i+1], 
+selectedIncident.stat...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:115:119:
+      115 Γöé ..."font-medium">{{ 
+getTypeLabel(selectedIncident.type) 
+}}</p></div>
+          Γò╡                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:115:119:
+      115 Γöé ..."font-medium">{{ 
+getTypeLabel(selectedIncident.type) 
+}}</p></div>
+          Γò╡                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:115:119:
+      115 Γöé ..."font-medium">{{ 
+getTypeLabel(selectedIncident.type) 
+}}</p></div>
+          Γò╡                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:116:124:
+      116 Γöé ...ont-medium">{{ 
+selectedIncident.assignedToName || 'Ch╞░a 
+ph├ón...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:116:124:
+      116 Γöé ...ont-medium">{{ 
+selectedIncident.assignedToName || 'Ch╞░a 
+ph├ón...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:116:124:
+      116 Γöé ...ont-medium">{{ 
+selectedIncident.assignedToName || 'Ch╞░a 
+ph├ón...
+          Γò╡              ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:119:17:
+      119 Γöé             <div 
+*ngIf="selectedIncident.resolution" class="p-4 
+b...
+          Γò╡                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:119:17:
+      119 Γöé             <div 
+*ngIf="selectedIncident.resolution" class="p-4 
+b...
+          Γò╡                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:119:17:
+      119 Γöé             <div 
+*ngIf="selectedIncident.resolution" class="p-4 
+b...
+          Γò╡                  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:121:55:
+      121 Γöé ...t-sm text-emerald-700 
+mt-1">{{ selectedIncident.resolution }}</p>
+          Γò╡                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:121:55:
+      121 Γöé ...t-sm text-emerald-700 
+mt-1">{{ selectedIncident.resolution }}</p>
+          Γò╡                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:121:55:
+      121 Γöé ...t-sm text-emerald-700 
+mt-1">{{ selectedIncident.resolution }}</p>
+          Γò╡                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:126:22:
+      126 Γöé ...   <button 
+*ngIf="selectedIncident.status==='OPEN'" 
+class="btn...
+          Γò╡               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:126:22:
+      126 Γöé ...   <button 
+*ngIf="selectedIncident.status==='OPEN'" 
+class="btn...
+          Γò╡               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:126:22:
+      126 Γöé ...   <button 
+*ngIf="selectedIncident.status==='OPEN'" 
+class="btn...
+          Γò╡               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:126:100:
+      126 Γöé ... text-xs" 
+(click)="updateStatus('ASSIGNED')">Giao 
+viß╗çc</button>
+          Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:126:100:
+      126 Γöé ... text-xs" 
+(click)="updateStatus('ASSIGNED')">Giao 
+viß╗çc</button>
+          Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:126:100:
+      126 Γöé ... text-xs" 
+(click)="updateStatus('ASSIGNED')">Giao 
+viß╗çc</button>
+          Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:127:22:
+      127 Γöé ...  <button 
+*ngIf="selectedIncident.status==='ASSIGNED'" 
+class="...
+          Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:127:22:
+      127 Γöé ...  <button 
+*ngIf="selectedIncident.status==='ASSIGNED'" 
+class="...
+          Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:127:22:
+      127 Γöé ...  <button 
+*ngIf="selectedIncident.status==='ASSIGNED'" 
+class="...
+          Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:127:104:
+      127 Γöé ...text-xs" 
+(click)="updateStatus('IN_PROGRESS')">Bß║»t 
+─æß║ºu</b...
+          Γò╡                      
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:127:104:
+      127 Γöé ...text-xs" 
+(click)="updateStatus('IN_PROGRESS')">Bß║»t 
+─æß║ºu</b...
+          Γò╡                      
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:127:104:
+      127 Γöé ...text-xs" 
+(click)="updateStatus('IN_PROGRESS')">Bß║»t 
+─æß║ºu</b...
+          Γò╡                      
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:128:22:
+      128 Γöé ...  <button *ngIf="selectedIncid
+ent.status==='IN_PROGRESS'" clas...
+          Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:128:22:
+      128 Γöé ...  <button *ngIf="selectedIncid
+ent.status==='IN_PROGRESS'" clas...
+          Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:128:22:
+      128 Γöé ...  <button *ngIf="selectedIncid
+ent.status==='IN_PROGRESS'" clas...
+          Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:128:107:
+      128 Γöé ... text-xs" 
+(click)="updateStatus('RESOLVED')">Giß║úi 
+quyß║┐t</b...
+          Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:128:107:
+      128 Γöé ... text-xs" 
+(click)="updateStatus('RESOLVED')">Giß║úi 
+quyß║┐t</b...
+          Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:128:107:
+      128 Γöé ... text-xs" 
+(click)="updateStatus('RESOLVED')">Giß║úi 
+quyß║┐t</b...
+          Γò╡                       
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:129:22:
+      129 Γöé ...  <button 
+*ngIf="selectedIncident.status==='RESOLVED'" 
+class="...
+          Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:129:22:
+      129 Γöé ...  <button 
+*ngIf="selectedIncident.status==='RESOLVED'" 
+class="...
+          Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:129:22:
+      129 Γöé ...  <button 
+*ngIf="selectedIncident.status==='RESOLVED'" 
+class="...
+          Γò╡              
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:129:104:
+      129 Γöé ...primary text-xs" (click)="upda
+teStatus('CLOSED')">─É├│ng</button>
+          Γò╡                              
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:129:104:
+      129 Γöé ...primary text-xs" (click)="upda
+teStatus('CLOSED')">─É├│ng</button>
+          Γò╡                              
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:129:104:
+      129 Γöé ...primary text-xs" (click)="upda
+teStatus('CLOSED')">─É├│ng</button>
+          Γò╡                              
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:131:51:
+      131 Γöé ..."btn-secondary" 
+(click)="selectedIncident = 
+null">─É├│ng</button>
+          Γò╡                             
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:131:51:
+      131 Γöé ..."btn-secondary" 
+(click)="selectedIncident = 
+null">─É├│ng</button>
+          Γò╡                             
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:131:51:
+      131 Γöé ..."btn-secondary" 
+(click)="selectedIncident = 
+null">─É├│ng</button>
+          Γò╡                             
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:137:11:
+      137 Γöé       <div *ngIf="showForm" 
+class="modal-overlay" (click)="showFo...
+          Γò╡            ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:137:11:
+      137 Γöé       <div *ngIf="showForm" 
+class="modal-overlay" (click)="showFo...
+          Γò╡            ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:137:11:
+      137 Γöé       <div *ngIf="showForm" 
+class="modal-overlay" (click)="showFo...
+          Γò╡            ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:137:59:
+      137 Γöé ...ngIf="showForm" 
+class="modal-overlay" (click)="showForm = 
+false">
+          Γò╡                                  
+                 ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:137:59:
+      137 Γöé ...ngIf="showForm" 
+class="modal-overlay" (click)="showForm = 
+false">
+          Γò╡                                  
+                 ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:137:59:
+      137 Γöé ...ngIf="showForm" 
+class="modal-overlay" (click)="showForm = 
+false">
+          Γò╡                                  
+                 ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:138:65:
+      138 Γöé ...content w-full max-w-lg mx-4" 
+(click)="$event.stopPropagation()">
+          Γò╡                                  
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:138:65:
+      138 Γöé ...content w-full max-w-lg mx-4" 
+(click)="$event.stopPropagation()">
+          Γò╡                                  
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:138:65:
+      138 Γöé ...content w-full max-w-lg mx-4" 
+(click)="$event.stopPropagation()">
+          Γò╡                                  
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:141:78:
+      141 Γöé .../label><input 
+[(ngModel)]="newIncident.title" 
+class="form-inpu...
+          Γò╡                           
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:141:78:
+      141 Γöé .../label><input 
+[(ngModel)]="newIncident.title" 
+class="form-inpu...
+          Γò╡                           
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:141:78:
+      141 Γöé .../label><input 
+[(ngModel)]="newIncident.title" 
+class="form-inpu...
+          Γò╡                           
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:141:78:
+      141 Γöé .../label><input 
+[(ngModel)]="newIncident.title" 
+class="form-inpu...
+          Γò╡                           
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:141:78:
+      141 Γöé .../label><input 
+[(ngModel)]="newIncident.title" 
+class="form-inpu...
+          Γò╡                           
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:141:78:
+      141 Γöé .../label><input 
+[(ngModel)]="newIncident.title" 
+class="form-inpu...
+          Γò╡                           
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:143:78:
+      143 Γöé ...label><select 
+[(ngModel)]="newIncident.type" 
+class="form-select">
+          Γò╡                             
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:143:78:
+      143 Γöé ...label><select 
+[(ngModel)]="newIncident.type" 
+class="form-select">
+          Γò╡                             
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:143:78:
+      143 Γöé ...label><select 
+[(ngModel)]="newIncident.type" 
+class="form-select">
+          Γò╡                             
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:143:78:
+      143 Γöé ...label><select 
+[(ngModel)]="newIncident.type" 
+class="form-select">
+          Γò╡                             
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:143:78:
+      143 Γöé ...label><select 
+[(ngModel)]="newIncident.type" 
+class="form-select">
+          Γò╡                             
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:143:78:
+      143 Γöé ...label><select 
+[(ngModel)]="newIncident.type" 
+class="form-select">
+          Γò╡                             
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:147:80:
+      147 Γöé ...abel><select 
+[(ngModel)]="newIncident.severity" 
+class="form-se...
+          Γò╡                         
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:147:80:
+      147 Γöé ...abel><select 
+[(ngModel)]="newIncident.severity" 
+class="form-se...
+          Γò╡                         
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:147:80:
+      147 Γöé ...abel><select 
+[(ngModel)]="newIncident.severity" 
+class="form-se...
+          Γò╡                         
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:147:80:
+      147 Γöé ...abel><select 
+[(ngModel)]="newIncident.severity" 
+class="form-se...
+          Γò╡                         
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:147:80:
+      147 Γöé ...abel><select 
+[(ngModel)]="newIncident.severity" 
+class="form-se...
+          Γò╡                         
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:147:80:
+      147 Γöé ...abel><select 
+[(ngModel)]="newIncident.severity" 
+class="form-se...
+          Γò╡                         
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:151:88:
+      151 Γöé ...l><textarea 
+[(ngModel)]="newIncident.description" 
+class="form-...
+          Γò╡                        
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:151:88:
+      151 Γöé ...l><textarea 
+[(ngModel)]="newIncident.description" 
+class="form-...
+          Γò╡                        
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:151:88:
+      151 Γöé ...l><textarea 
+[(ngModel)]="newIncident.description" 
+class="form-...
+          Γò╡                        
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:151:88:
+      151 Γöé ...l><textarea 
+[(ngModel)]="newIncident.description" 
+class="form-...
+          Γò╡                        
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:151:88:
+      151 Γöé ...l><textarea 
+[(ngModel)]="newIncident.description" 
+class="form-...
+          Γò╡                        
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:151:88:
+      151 Γöé ...l><textarea 
+[(ngModel)]="newIncident.description" 
+class="form-...
+          Γò╡                        
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:154:51:
+      154 Γöé ...n class="btn-secondary" 
+(click)="showForm = false">Hß╗ºy</button>
+          Γò╡                                  
+   ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:154:51:
+      154 Γöé ...n class="btn-secondary" 
+(click)="showForm = false">Hß╗ºy</button>
+          Γò╡                                  
+   ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:154:51:
+      154 Γöé ...n class="btn-secondary" 
+(click)="showForm = false">Hß╗ºy</button>
+          Γò╡                                  
+   ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status!=='CLOSED'&&i.stat
+us!=='RESOLVED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@26:53 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:155:49:
+      155 Γöé ..."btn-primary" 
+(click)="createIncident()">Tß║ío sß╗▒ 
+cß╗æ</button>
+          Γò╡                           
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='IN_PROGRESS').l
+ength }}] in C:/Users/MSI/Downloads/New folder/
+brt-gestao/src/app/features/incidents/incident-
+list/incident-list.component.ts@30:55 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:155:49:
+      155 Γöé ..."btn-primary" 
+(click)="createIncident()">Tß║ío sß╗▒ 
+cß╗æ</button>
+          Γò╡                           
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Parser Error: Bindings 
+cannot contain assignments at column 21 in [{{ 
+incidents.filter(i=>i.status==='RESOLVED'||i.st
+atus==='CLOSED').length }}] in 
+C:/Users/MSI/Downloads/New folder/brt-gestao/sr
+c/app/features/incidents/incident-list/incident
+-list.component.ts@34:57 [plugin 
+angular-compiler]
+
+    src/app/features/incidents/incident-list/in
+cident-list.component.ts:155:49:
+      155 Γöé ..."btn-primary" 
+(click)="createIncident()">Tß║ío sß╗▒ 
+cß╗æ</button>
+          Γò╡                           
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'getCurrentUser' 
+does not exist on type 'AuthService'. Did you 
+mean 'currentUser'? [plugin angular-compiler]
+
+    src/app/features/settings/settings.componen
+t.ts:104:88:
+      104 Γöé ...ervice) { this.currentUser = 
+this.authService.getCurrentUser(); }
+          Γò╡                                  
+                ~~~~~~~~~~~~~~
+
+  'currentUser' is declared here.
+
+    src/app/core/services/auth.service.ts:56:6:
+      56 Γöé   get currentUser(): User | null {
+         Γò╡       ~~~~~~~~~~~
+
+
